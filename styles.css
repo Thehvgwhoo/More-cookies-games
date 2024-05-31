@@ -1,0 +1,57 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cookie-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#cookie {
+    width: 200px;
+    cursor: pointer;
+}
+
+#shop-container {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.shop-item {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.shop-item img {
+    width: 50px;
+}
+
+#leaderboard-container {
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#leaderboard {
+    list-style-type: none;
+    padding: 0;
+}
